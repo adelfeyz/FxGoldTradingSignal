@@ -35,54 +35,16 @@ This project aims to develop a machine learning model to predict **buy** and **s
 ## Repository Structure
 
 ```bash
-├── data/                      # Data files used in the project
-│   ├── RAW-DATA.csv           # Original raw data file
-│   ├── transformed_data.csv   # Data after feature engineering and transformation
-├── models/                    # Trained machine learning models
-│   ├── model_X.pkl            # Example of a saved model (e.g., RandomForest, XGBoost)
-├── scripts/                   # Python scripts for data processing and model training
-│   ├── data_preprocessing.py  # Script to retrieve and preprocess data
-│   ├── model_training.py      # Script for model training and evaluation
-├── notebooks/                 # Jupyter notebooks for experimentation
-│   ├── exploratory_analysis.ipynb
-├── README.md                  # Project overview and instructions
-├── requirements.txt           # Python dependencies
-└── LICENSE                    # License for the project
+├── data:                                        # Data files used in the project
+│   ├── RAW-DATA.csv                             # Prepared raw data file
+├── scripts:                                     # Python scripts for data processing and model training
+│   ├── Multiple Models with Grid Search.ipynb   # Script to retrieve and preprocess data
+│   ├── Different_models.ipynb                   # Script for model training and evaluation
+├── notebooks:                                   # Jupyter notebooks for experimentation
+│   ├── FX_gold_trade.ipynb
+├── README.md                                    # Project overview and instructions
+└── LICENSE                                      # License for the project
 ```
-
-## Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/gold-forex-trading-signal-prediction.git
-cd gold-forex-trading-signal-prediction
-```
-
-### Install dependencies
-
-You can install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Project
-
-1. **Data Preprocessing**:
-   Run the data preprocessing script to retrieve, clean, and transform the raw gold price data.
-   ```bash
-   python scripts/data_preprocessing.py
-   ```
-
-2. **Model Training**:
-   Train the machine learning models by running the model training script.
-   ```bash
-   python scripts/model_training.py
-   ```
-
-3. **Evaluation**:
-   Use the trained models to evaluate performance and generate ROC curves, confusion matrices, and classification reports.
 
 ## Key Features
 
