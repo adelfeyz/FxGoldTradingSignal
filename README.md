@@ -36,14 +36,14 @@ This project aims to develop a machine learning model to predict **buy** and **s
 
 ```bash
 ├── data:                                        # Data files used in the project
-│   ├── RAW-DATA.csv                             # Prepared raw data file
+│   ├── [RAW-DATA.csv](data/RAW-DATA.csv)        # Prepared raw data file
 ├── scripts:                                     # Python scripts for data processing and model training
-│   ├── Multiple Models with Grid Search.ipynb   # Script to retrieve and preprocess data
-│   ├── Different_models.ipynb                   # Script for model training and evaluation
+│   ├── [Multiple Models with Grid Search.ipynb](scripts/Multiple%20Models%20with%20Grid%20Search.ipynb)   # Script to retrieve and preprocess data
+│   ├── [Different_models.ipynb](scripts/Different_models.ipynb)                   # Script for model training and evaluation
 ├── notebooks:                                   # Jupyter notebooks for experimentation
-│   ├── FX_gold_trade.ipynb
-├── README.md                                    # Project overview and instructions
-└── LICENSE                                      # License for the project
+│   ├── [FX_gold_trade.ipynb](notebooks/FX_gold_trade.ipynb)
+├── [README.md](README.md)                       # Project overview and instructions
+└── [LICENSE](LICENSE)                           # License for the project
 ```
 
 ## Key Features
@@ -66,7 +66,7 @@ This project aims to develop a machine learning model to predict **buy** and **s
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
 
 ## Acknowledgements
 
