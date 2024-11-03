@@ -45,11 +45,11 @@ This project aims to develop a machine learning model to predict **buy** and **s
 ├── [README.md]                                 # Project overview and instructions
 └── [LICENSE](LICENSE)                          # License for the project
 ```
-[RAW-DATA.csv](RAW-DATA.csv)
-[Multiple Models with Grid Search.ipynb](Multiple%20Models%20with%20Grid%20Search.ipynb)
-[Different_models.ipynb](scripts/Different_models.ipynb)
-[FX_gold_trade.ipynb](notebooks/FX_gold_trade.ipynb)
-[README.md](README.md)
+[RAW-DATA.csv](RAW-DATA.csv) | 
+[Multiple Models with Grid Search.ipynb](Multiple%20Models%20with%20Grid%20Search.ipynb) | 
+[Different_models.ipynb](scripts/Different_models.ipynb) | 
+[FX_gold_trade.ipynb](notebooks/FX_gold_trade.ipynb) | 
+[README.md](README.md) | 
 [LICENSE](LICENSE)
 
 
